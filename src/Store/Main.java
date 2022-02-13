@@ -33,11 +33,11 @@ public class Main extends Application {
 
 
 //
-    private  static final String CONN = "jdbc:mysql://localhost/fashion";
+
       private static final String USERNAME="root";
       private static final String PASSWORD="";
 
-//
+private  static final String CONN = "jdbc:mysql://localhost/fashion";
 
     public static Connection connectDB() {
         try {

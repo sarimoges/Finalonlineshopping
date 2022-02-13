@@ -8,7 +8,7 @@ abstract public class Account {
 
     abstract public void setId(Integer id);
 
-    public static Customer getCustomer() {
+   public static Customer getCustomer() {
         return customer;
     }
 

@@ -23,7 +23,7 @@ public class Email {
     }
 
     public static void sendInvoice(String to, String fileName) {
-        //Invoice.generateInvoice();
+        ///Invoice.generateInvoice();
         String from = "JSFASHION9@gmail.com";
 
         Properties properties = getProperties();
